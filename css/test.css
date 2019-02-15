@@ -1,0 +1,260 @@
+body{
+	background:url(../image/ground.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;
+	
+}
+
+
+
+a {
+  text-decoration: none;
+  color:blue ;
+}
+a:visited {
+  color:blue;
+  
+}
+a:hover{
+   color:red;
+   text-decoration: underline;
+} 
+a:focus{
+	color:grey;
+} 
+
+
+.imghead{
+	width:100%;
+	height:250px;
+	padding:none;
+	position:relative;
+		
+    webkit-animation-name: diapo1;
+	webkit-animation-duration:20s;
+	webkit-animation-timing-function:linear;
+	webkit-animation-iteration-count:infinite;
+	webkit-animation-direction:normale;
+	
+	moz-animation-name: diapo1;
+	moz-animation-duration:20s;
+	moz-animation-timing-function:linear;
+	moz-animation-iteration-count:infinite;
+	moz-animation-direction:normale;
+	
+	animation-name: diapo1;
+	animation-duration:20s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normale;	
+}
+
+@-moz-keyframes diapo1{
+	0%{background-image: url("../image/imgg.jpg");}
+	10%{background-image: url("../image/ground.jpg");}
+	20%{background-image: url("../image/imgc.jpg");}
+	30%{background-image: url("../image/imgi.jpg");}
+	40%{background-image: url("../image/imgf.jpg");}
+    50%{background-image: url("../image/imge.jpg");}
+	60%{background-image: url("../image/ground.jpg");}
+	70%{background-image: url("../image/imgd.jpg");}
+	80%{background-image: url("../image/imgk.jpg");}
+	90%{background-image: url("../image/imgj.jpg");}
+
+}
+
+@keyframes diapo1{
+	0%{background-image: url("../image/imgg.jpg");}
+	10%{background-image: url("../image/ground.jpg");}
+	20%{background-image: url("../image/imgc.jpg");}
+	30%{background-image: url("../image/imgi.jpg");}
+	40%{background-image: url("../image/imgf.jpg");}
+    50%{background-image: url("../image/imge.jpg");}
+	60%{background-image: url("../image/ground.jpg");}
+	70%{background-image: url("../image/imgd.jpg");}
+	80%{background-image: url("../image/imgk.jpg");}
+	90%{background-image: url("../image/imgj.jpg");}
+}
+
+ul{
+	padding-left:0px;
+}
+
+.menu{
+  
+    list-style: none;
+    padding:none;
+    font-size: 18px;
+    border: 1px solid rgba(O,O,O,0.8);
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    background:white;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    filter: dropshadow(color=#000, offx=1, offy=0);
+    
+    
+    
+}
+
+.red{
+	color:red;
+	text-align:center;
+}
+.accueil{
+    margin-left:20px;
+}
+.ins{
+    margin-left:20px;
+}
+.ins1{
+	width:300px;
+	height:100px;
+    margin-left:570px;
+	border-radius:50%;
+	margin-top:30px;
+}
+.ins2{
+	margin-left:640px;
+	margin-top:30px;
+}
+.login{
+    margin-left:450px;
+}
+.login2{
+	margin-left:640px;
+	margin-top:30px;
+}
+.logologin{
+	width:300px;
+	height:90px;
+	margin-left:570px;
+	margin-top:90px;
+}
+.logout{
+	margin-left:20px;
+}
+.profil{
+	margin-left:20;
+}
+
+.profil1{
+	width:300px;
+	height:100px;
+	margin-left:590px;
+	margin-top:100px;
+}
+.profil2{
+	margin-left:660px;
+}
+.imga{
+width:455px;
+height:250px;
+margin-top:40px;
+margin-right:60px;
+margin-left:0px;
+}
+
+.lignea{
+	display:flex;
+	margin-top:40px;
+}
+ .ligneb{
+	display:flex;
+	margin-top:40px;
+}
+ .lignec{
+	display:flex;
+	margin-top:40px;
+}
+.topic{
+
+}
+
+.post{
+	margin-left:259px;
+}
+
+.couleurpost{
+	color:white;
+	text-align:center;
+}
+
+
+
+
+
+.cat{
+    padding:  0;
+    list-style: none;
+    width: 445px;
+    font-size: 18px;
+    background: grey;
+    border: 1px solid rgba(O,O,O,O.8);
+	text-align: center;
+	position: relative;
+}
+
+
+
+.cat li a{
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    background: black;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    filter: dropshadow(color=#000, offx=1, offy=0);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+.cat li ul li a{
+    font-size: 14px;
+    color: blue;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+    filter: dropshadow(color=#000, offx=1, offy=0); 
+}
+
+.cat li ul li a:hover{
+   color:red;
+   text-decoration: underline;
+}
+
+.cat ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    
+}
+
+.cat li a:hover{
+	background:black;
+}
+
+.cat li:hover ul{
+     height:auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+	
+}
+
+.cat ul li a{
+    background: white;
+}
+
+.cat ul li a:hover {
+    background: white;
+}
+
+.titre{
+	color:green;
+	text-align:center;
+	text-decoration: underline;
+	
+}
